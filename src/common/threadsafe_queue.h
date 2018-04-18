@@ -1,3 +1,6 @@
+#ifndef THREADSAFE_QUEUE_H
+#define THREADSAFE_QUEUE_H
+
 #include <condition_variable>
 #include <memory>
 #include <mutex>
@@ -72,3 +75,5 @@ public:
 };
 } // namespace common
 } // namespace mycpp
+
+#endif
